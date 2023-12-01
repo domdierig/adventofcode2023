@@ -1,0 +1,29 @@
+{
+    "name": "adventofcode2023",
+    "version": "1.0.0",
+    "description": "advent of code code",
+    "main": "bin/app.js",
+    "scripts": {
+        "dev": "tsc --watch",
+        "start": "node bin/app.js",
+        "test": "jest"
+    },
+    "author": "Dominic Dierig",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.10.1",
+        "typescript": "^5.3.2",
+        "jest": "^29.7.0",
+        "@types/jest": "^29.5.10",
+        "ts-jest": "^29.1.1"
+    },
+    "dependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+git@github.com:domdierig/adventofcode2023.git"
+    },
+    "bugs": {
+        "url": "git@github.com:domdierig/adventofcode2023/issues"
+    },
+    "homepage": "git@github.com:domdierig/adventofcode2023#readme"
+}
