@@ -1,7 +1,6 @@
 import { Game, GameSet, GamesResult } from './types';
 
 const readInGame = (input: string): Game => {
-    const colorRegex = /(\d*\sred)|(\d*\sblue)|(\d*\sgreen)/gm;
     const gameStringSplitted = input.split(':');
     const gameID = gameStringSplitted[0].split(' ')[1];
 
