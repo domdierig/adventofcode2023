@@ -11,12 +11,6 @@
         "rootDir": "src",
         "forceConsistentCasingInFileNames": true
     },
-    "lib": [
-        "ES2021"
-    ],
-    "exclude": [
-        "bin",
-        "node_modules",
-        "__tests__"
-    ]
+    "lib": ["ES2021"],
+    "exclude": ["bin", "node_modules", "__tests__"]
 }

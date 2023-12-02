@@ -5,8 +5,9 @@
     "main": "bin/app.js",
     "scripts": {
         "dev": "tsc --watch",
+        "build": "tsc",
         "start": "node bin/app.js",
-        "test": "jest"
+        "test": "jest --watchAll"
     },
     "author": "Dominic Dierig",
     "license": "ISC",
