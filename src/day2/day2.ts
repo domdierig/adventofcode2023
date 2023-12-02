@@ -64,7 +64,7 @@ const isGamePossible = (game: Game, red: number, blue: number, green: number): b
     return true;
 };
 
-const countImpossibleGameIDs = (input: string[]): GamesResult => {
+const createPuzzleResult = (input: string[]): GamesResult => {
     let result: GamesResult = {
         sumOfPossibleGameIDs: 0,
         sumOfPower: 0,
@@ -80,4 +80,4 @@ const countImpossibleGameIDs = (input: string[]): GamesResult => {
     return result;
 };
 
-export { readInGame, isGamePossible, countImpossibleGameIDs };
+export { readInGame, isGamePossible, createPuzzleResult };
